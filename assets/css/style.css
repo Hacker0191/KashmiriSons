@@ -19607,6 +19607,23 @@ input[type="submit"] {
   }
 }
 
+    .whatsapp-icon {
+  position: fixed;
+  bottom: 35px;
+  left: 20px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.whatsapp-icon img {
+  width: 60px;
+  height: auto;
+}
+
+.whatsapp-icon:hover {
+  opacity: 0.8;
+}
+
 .features-wrap p {
   font-size: 18px;
   line-height: 32px;
